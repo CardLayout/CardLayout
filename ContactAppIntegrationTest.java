@@ -113,6 +113,6 @@ public class ContactAppIntegrationTest {
         app.showCard("DETAILS");
 
         assertNotNull(app.cardPanel); // Ensure cardPanel exists
-        assertTrue(app.cardPanel.getComponent(1).isVisible());  // Details panel should be visible
+        assertTrue(app.cardPanel.getComponent(1).isVisible());
     }
 }

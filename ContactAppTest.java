@@ -69,7 +69,6 @@ class ContactAppTest {
     }
 
 
-
     // Testing the saveContact() method
     @Test
     public void SaveContact() {
@@ -137,9 +136,6 @@ class ContactAppTest {
         // Assert
         assertNotNull(app.cardPanel); // Ensure cardPanel exists
     }
-
-
-
 
 }
 
